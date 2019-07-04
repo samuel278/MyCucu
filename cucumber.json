@@ -1,0 +1,298 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-04T04:19:00.629Z",
+        "line": 12,
+        "name": "Calculator functions",
+        "description": "",
+        "id": "test-calculator;calculator-functions;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1055200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter 10 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 8
+                }
+              ],
+              "location": "Calc.Enter(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press \"add\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"add\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Calc.add(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have entered 20 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 15
+                }
+              ],
+              "location": "Calc.I_have_entered_50_in_the_caluculator(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "Calc.I_press_equal_symbol()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The result should be 30 on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 21
+                }
+              ],
+              "location": "Calc.The_result_should_be_100_on_the_screen(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-04T04:19:00.723Z",
+        "line": 13,
+        "name": "Calculator functions",
+        "description": "",
+        "id": "test-calculator;calculator-functions;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 125900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter 30 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 8
+                }
+              ],
+              "location": "Calc.Enter(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press \"sub\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sub\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Calc.add(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have entered 20 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 15
+                }
+              ],
+              "location": "Calc.I_have_entered_50_in_the_caluculator(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "Calc.I_press_equal_symbol()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The result should be 10 on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 21
+                }
+              ],
+              "location": "Calc.The_result_should_be_100_on_the_screen(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-04T04:19:00.723Z",
+        "line": 14,
+        "name": "Calculator functions",
+        "description": "",
+        "id": "test-calculator;calculator-functions;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 106100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter 30 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 8
+                }
+              ],
+              "location": "Calc.Enter(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press \"mul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mul\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Calc.add(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have entered 4 in the calculator",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 15
+                }
+              ],
+              "location": "Calc.I_have_entered_50_in_the_caluculator(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "Calc.I_press_equal_symbol()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The result should be 120 on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "120",
+                  "offset": 21
+                }
+              ],
+              "location": "Calc.The_result_should_be_100_on_the_screen(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Calculator",
+    "description": "  This file describes calculator functionality",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:cucu3/cal.feature",
+    "tags": []
+  }
+]
